@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" onClick="window.location.reload();"><h1>Comision 23308</h1></a>
+        <div class="search">
+            <form class="form">
+                <i class="fa fa-search form-icon"></i>
+                <input type="search" class="form-input" placeholder="Buscar pelicula...">
+                <input type="submit" class="form-button" value="Buscar">
+            </form>
+        </div> <!-- ./search -->
+    </header>
+    <div class="nav">
+
+    </div>
+    <div class="contenedor">
+
+    </div>
+    <div class="paginacion">
+        <button id="btnAnterior">Anterior</button>
+        <button id="btnSiguiente">Siguiente</button>
+    </div>
+    
+
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyD4FSEj_01r33F2s5qslOxUIdfefGBnaPI",
+            authDomain: "practica-vanilla.firebaseapp.com",
+            projectId: "practica-vanilla",
+            storageBucket: "practica-vanilla.appspot.com",
+            messagingSenderId: "781745922509",
+            appId: "1:781745922509:web:7764aa076b75ce106fa484"
+        };
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+</body>
+</html>
